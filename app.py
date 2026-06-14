@@ -15,7 +15,7 @@ import numpy as np
 # -----------------------------------------
 
 st.set_page_config(
-    page_title="IPL Analytics Dashboard",
+    page_title="IPL Analysis Dashboard",
     page_icon="🏏",
     layout="wide"
 )
@@ -24,9 +24,9 @@ st.set_page_config(
 # Title
 # -----------------------------------------
 
-st.title("PragyanAI - Wifi-Hotspot Dashboard")
+st.title("Wifi-Hotspot Dashboard")
 
-st.markdown("Wifi Hotspot Analytics using Python, NumPy, Pandas and Streamlit")
+st.markdown("Wifi Hotspot Analysis using Python, NumPy, Pandas and Streamlit")
 
 # -----------------------------------------
 # Create folders
