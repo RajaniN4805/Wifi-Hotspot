@@ -1,5 +1,5 @@
 # =========================================
-# IPL Analytics Streamlit Dashboard
+#WiFi-Hotspot Streamlit Dashboard
 # app.py
 # =========================================
 
@@ -24,9 +24,9 @@ st.set_page_config(
 # Title
 # -----------------------------------------
 
-st.title("PragyanAI - IPL Analytics Dashboard")
+st.title("PragyanAI - Wifi-Hotspot Dashboard")
 
-st.markdown("Interactive Cricket Data Analytics using Python, NumPy, Pandas and Streamlit")
+st.markdown("Wifi Hotspot Analytics using Python, NumPy, Pandas and Streamlit")
 
 # -----------------------------------------
 # Create folders
