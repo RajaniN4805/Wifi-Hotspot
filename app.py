@@ -92,7 +92,7 @@ col2.metric("Total Teams", total_teams)
 col3.metric("Most Successful Team", top_team)
 
 # -----------------------------------------
-# Team Matches
+# Users
 # -----------------------------------------
 
 st.header(f" {selected_team} Match Analysis")
@@ -138,7 +138,7 @@ fig2 = px.pie(
 st.plotly_chart(fig2, use_container_width=True)
 
 # -----------------------------------------
-# Top Batsmen
+# Top users
 # -----------------------------------------
 
 top_batsmen = deliveries.groupby(
@@ -188,7 +188,7 @@ fig4 = px.bar(
 st.plotly_chart(fig4, use_container_width=True)
 
 # -----------------------------------------
-# Wicket Analysis
+# Hotspot Analysis
 # -----------------------------------------
 
 wickets = deliveries[
@@ -304,6 +304,6 @@ if st.checkbox("Show Deliveries Dataset"):
 
 st.markdown("---")
 
-st.markdown("### IPL Analytics Dashboard using Streamlit")
+st.markdown("### Wifi-Hotspot Analysis Dashboard using Streamlit")
 
 st.markdown("Built with Python, NumPy, Pandas, Plotly and Streamlit")
